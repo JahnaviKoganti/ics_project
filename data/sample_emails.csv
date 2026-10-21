@@ -1,0 +1,129 @@
+Timestamp,Sender,Recipient,Direction,Subject,Status,SizeKB,SenderDomain
+2026-10-03 17:00:00,helpdesk@campus.example,it.support@example.com,Sent,Updated security policy,Delivered,45,campus.example
+2026-10-13 22:30:00,amara.rao@example.com,julian.lee@example.com,Sent,Please verify account immediately,Delivered,12,example.com
+2026-10-13 07:05:00,helpdesk@campus.example,student.two@campus.example,Received,Updated security policy,Delivered,12,campus.example
+2026-10-04 17:30:00,hr.team@example.com,it.support@example.com,Sent,Please verify account immediately,Delivered,1800,example.com
+2026-10-03 09:15:00,hr.team@example.com,it.support@example.com,Sent,Wire transfer details,Delivered,1800,example.com
+2026-10-03 00:45:00,it.support@example.com,finance@example.com,Sent,Sprint planning agenda,Delivered,240,example.com
+2026-10-03 00:05:00,julian.lee@example.com,student.one@campus.example,Received,Wire transfer details,Rejected,88,example.com
+2026-10-09 05:15:00,alerts@unknown.example,hr.team@example.com,Sent,Urgent: please verify account immediately,Delivered,130,unknown.example
+2026-10-04 19:30:00,finance@example.com,it.support@example.com,Sent,Urgent: review attached document,Delivered,12,example.com
+2026-10-08 01:30:00,it.support@example.com,julian.lee@example.com,Sent,Purchase order approval,Quarantined,450,example.com
+2026-10-09 18:30:00,priya.shah@example.com,hr.team@example.com,Sent,Updated security policy,Quarantined,240,example.com
+2026-10-13 19:30:00,billing@vendor.example,finance@example.com,Received,Updated security policy,Delivered,45,vendor.example
+2026-10-02 08:00:00,priya.shah@example.com,elias.khan@example.com,Received,Document review comments,Delivered,450,example.com
+2026-10-12 14:15:00,security@mail-secure.example,amara.rao@example.com,Sent,New device sign-in notice,Delivered,560,mail-secure.example
+2026-10-03 17:15:00,finance@example.com,priya.shah@example.com,Received,Weekly project update,Quarantined,240,example.com
+2026-10-12 00:05:00,security@mail-secure.example,julian.lee@example.com,Received,Password reset request - action required,Failed,560,mail-secure.example
+2026-10-04 18:45:00,security@mail-secure.example,amara.rao@example.com,Received,Gift card request,Delivered,560,mail-secure.example
+2026-10-07 21:05:00,amara.rao@example.com,it.support@example.com,Sent,Sprint planning agenda,Quarantined,45,example.com
+2026-10-12 16:05:00,priya.shah@example.com,student.two@campus.example,Sent,Lunch meeting moved to 1 PM,Delivered,1800,example.com
+2026-10-05 20:45:00,helpdesk@campus.example,elias.khan@example.com,Received,Delivery status notification,Rejected,450,campus.example
+2026-10-12 08:30:00,julian.lee@example.com,it.support@example.com,Sent,Sprint planning agenda,Delivered,130,example.com
+2026-10-13 21:05:00,amara.rao@example.com,priya.shah@example.com,Sent,Updated security policy,Delivered,560,example.com
+2026-10-02 20:45:00,elias.khan@example.com,hr.team@example.com,Received,Please verify account immediately,Delivered,450,example.com
+2026-10-06 12:30:00,finance@example.com,elias.khan@example.com,Sent,Course registration confirmation,Rejected,1800,example.com
+2026-10-10 02:30:00,alerts@unknown.example,amara.rao@example.com,Sent,Urgent: please verify account immediately,Delivered,45,unknown.example
+2026-10-06 15:05:00,elias.khan@example.com,external.contact@partner.example,Received,Invoice for October services,Delivered,450,example.com
+2026-10-06 15:00:00,alerts@unknown.example,student.two@campus.example,Sent,Meeting notes and action items,Rejected,12,unknown.example
+2026-10-03 07:05:00,priya.shah@example.com,student.one@campus.example,Received,Gift card request,Delivered,12,example.com
+2026-10-04 20:30:00,amara.rao@example.com,student.one@campus.example,Received,Wire transfer details,Delivered,450,example.com
+2026-10-04 15:05:00,it.support@example.com,elias.khan@example.com,Sent,Purchase order approval,Quarantined,560,example.com
+2026-10-02 13:00:00,billing@vendor.example,student.one@campus.example,Sent,Meeting notes and action items,Delivered,88,vendor.example
+2026-10-02 19:45:00,julian.lee@example.com,it.support@example.com,Received,Course registration confirmation,Failed,12,example.com
+2026-10-03 01:30:00,noreply@updates.example,external.contact@partner.example,Received,Lunch meeting moved to 1 PM,Delivered,560,updates.example
+2026-10-06 10:15:00,finance@example.com,priya.shah@example.com,Received,Wire transfer details,Quarantined,45,example.com
+2026-10-01 12:30:00,billing@vendor.example,external.contact@partner.example,Sent,Sprint planning agenda,Delivered,240,vendor.example
+2026-10-04 03:15:00,julian.lee@example.com,it.support@example.com,Received,Quarterly report draft,Delivered,240,example.com
+2026-10-12 14:00:00,noreply@updates.example,student.two@campus.example,Received,Course registration confirmation,Delivered,45,updates.example
+2026-10-13 03:05:00,it.support@example.com,hr.team@example.com,Sent,Urgent: review attached document,Delivered,240,example.com
+2026-10-12 02:30:00,it.support@example.com,amara.rao@example.com,Sent,Benefits enrollment reminder,Delivered,560,example.com
+2026-10-04 02:15:00,priya.shah@example.com,student.two@campus.example,Received,New device sign-in notice,Delivered,88,example.com
+2026-10-12 23:00:00,hr.team@example.com,external.contact@partner.example,Sent,Benefits enrollment reminder,Delivered,560,example.com
+2026-10-02 04:15:00,elias.khan@example.com,it.support@example.com,Sent,Shared folder access granted,Delivered,1800,example.com
+2026-10-04 15:05:00,priya.shah@example.com,elias.khan@example.com,Received,Weekly project update,Delivered,560,example.com
+2026-10-10 02:05:00,it.support@example.com,priya.shah@example.com,Sent,Delivery status notification,Delivered,130,example.com
+2026-10-05 14:30:00,hr.team@example.com,it.support@example.com,Sent,Updated security policy,Delivered,1800,example.com
+2026-10-08 08:15:00,security@mail-secure.example,hr.team@example.com,Received,Password reset request - action required,Delivered,560,mail-secure.example
+2026-10-01 22:00:00,it.support@example.com,priya.shah@example.com,Received,Meeting notes and action items,Delivered,560,example.com
+2026-10-08 00:30:00,billing@vendor.example,student.two@campus.example,Sent,Delivery status notification,Failed,12,vendor.example
+2026-10-10 15:00:00,security@mail-secure.example,student.two@campus.example,Sent,Shared folder access granted,Delivered,560,mail-secure.example
+2026-10-08 00:00:00,helpdesk@campus.example,it.support@example.com,Received,Benefits enrollment reminder,Delivered,240,campus.example
+2026-10-13 03:05:00,elias.khan@example.com,student.one@campus.example,Received,Password reset request,Failed,1800,example.com
+2026-10-13 00:00:00,it.support@example.com,hr.team@example.com,Sent,Benefits enrollment reminder,Failed,560,example.com
+2026-10-11 06:30:00,alerts@unknown.example,elias.khan@example.com,Received,Password reset request,Rejected,560,unknown.example
+2026-10-03 07:05:00,noreply@updates.example,it.support@example.com,Sent,Please verify account immediately,Delivered,130,updates.example
+2026-10-11 11:45:00,julian.lee@example.com,student.two@campus.example,Received,Purchase order approval,Delivered,1800,example.com
+2026-10-11 21:30:00,elias.khan@example.com,priya.shah@example.com,Sent,Course registration confirmation,Delivered,450,example.com
+2026-10-02 09:45:00,elias.khan@example.com,julian.lee@example.com,Received,Invoice for October services,Delivered,560,example.com
+2026-10-10 18:45:00,helpdesk@campus.example,student.two@campus.example,Received,New device sign-in notice,Delivered,450,campus.example
+2026-10-10 22:15:00,elias.khan@example.com,hr.team@example.com,Received,Updated security policy,Delivered,240,example.com
+2026-10-06 08:15:00,hr.team@example.com,finance@example.com,Sent,Invoice for October services,Delivered,88,example.com
+2026-10-05 21:00:00,finance@example.com,student.one@campus.example,Received,New device sign-in notice,Delivered,130,example.com
+2026-10-10 07:30:00,alerts@unknown.example,amara.rao@example.com,Received,Urgent: please verify account immediately,Delivered,240,unknown.example
+2026-10-09 15:30:00,security@mail-secure.example,student.two@campus.example,Sent,Gift card request,Delivered,450,mail-secure.example
+2026-10-01 22:30:00,hr.team@example.com,student.one@campus.example,Sent,Wire transfer details,Delivered,12,example.com
+2026-10-09 17:45:00,billing@vendor.example,amara.rao@example.com,Sent,Benefits enrollment reminder,Delivered,88,vendor.example
+2026-10-02 09:15:00,finance@example.com,hr.team@example.com,Sent,Wire transfer details,Delivered,1800,example.com
+2026-10-07 06:30:00,it.support@example.com,julian.lee@example.com,Received,Weekly project update,Quarantined,560,example.com
+2026-10-06 02:00:00,noreply@updates.example,amara.rao@example.com,Sent,Updated security policy,Delivered,88,updates.example
+2026-10-06 10:05:00,alerts@unknown.example,julian.lee@example.com,Sent,Wire transfer details,Quarantined,560,unknown.example
+2026-10-04 21:45:00,billing@vendor.example,julian.lee@example.com,Sent,Quarterly report draft,Delivered,240,vendor.example
+2026-10-13 14:30:00,finance@example.com,elias.khan@example.com,Sent,Purchase order approval,Quarantined,130,example.com
+2026-10-03 12:15:00,noreply@updates.example,external.contact@partner.example,Sent,Purchase order approval,Delivered,1800,updates.example
+2026-10-09 05:00:00,security@mail-secure.example,hr.team@example.com,Sent,Benefits enrollment reminder,Delivered,560,mail-secure.example
+2026-10-11 03:05:00,finance@example.com,priya.shah@example.com,Received,Document review comments,Delivered,450,example.com
+2026-10-10 15:45:00,it.support@example.com,finance@example.com,Sent,Sprint planning agenda,Delivered,130,example.com
+2026-10-11 05:45:00,billing@vendor.example,finance@example.com,Received,Weekly project update,Delivered,88,vendor.example
+2026-10-11 17:05:00,hr.team@example.com,it.support@example.com,Received,Lunch meeting moved to 1 PM,Failed,240,example.com
+2026-10-13 04:00:00,security@mail-secure.example,elias.khan@example.com,Sent,Updated security policy,Quarantined,130,mail-secure.example
+2026-10-11 11:30:00,alerts@unknown.example,amara.rao@example.com,Sent,Quarterly report draft,Delivered,130,unknown.example
+2026-10-07 20:45:00,hr.team@example.com,student.two@campus.example,Received,Benefits enrollment reminder,Quarantined,560,example.com
+2026-10-11 00:15:00,it.support@example.com,hr.team@example.com,Sent,Course registration confirmation,Quarantined,45,example.com
+2026-10-12 18:05:00,elias.khan@example.com,it.support@example.com,Received,Lunch meeting moved to 1 PM,Quarantined,240,example.com
+2026-10-03 11:05:00,it.support@example.com,elias.khan@example.com,Received,Password reset request,Delivered,88,example.com
+2026-10-07 04:00:00,amara.rao@example.com,external.contact@partner.example,Received,Invoice for October services,Rejected,450,example.com
+2026-10-03 12:00:00,billing@vendor.example,it.support@example.com,Received,Gift card request,Delivered,12,vendor.example
+2026-10-06 17:30:00,julian.lee@example.com,priya.shah@example.com,Received,Gift card request,Delivered,12,example.com
+2026-10-04 13:05:00,billing@vendor.example,it.support@example.com,Sent,Updated security policy,Delivered,1800,vendor.example
+2026-10-14 06:45:00,security@mail-secure.example,elias.khan@example.com,Received,Password reset request - action required,Delivered,1800,mail-secure.example
+2026-10-07 20:45:00,billing@vendor.example,amara.rao@example.com,Sent,Please verify account immediately,Rejected,45,vendor.example
+2026-10-04 16:05:00,priya.shah@example.com,external.contact@partner.example,Sent,Password reset request,Delivered,450,example.com
+2026-10-07 13:00:00,elias.khan@example.com,hr.team@example.com,Received,Wire transfer details,Delivered,240,example.com
+2026-10-13 21:05:00,finance@example.com,julian.lee@example.com,Sent,Invoice for October services,Delivered,45,example.com
+2026-10-02 14:05:00,it.support@example.com,hr.team@example.com,Received,Course registration confirmation,Delivered,1800,example.com
+2026-10-07 03:45:00,security@mail-secure.example,student.one@campus.example,Received,Sprint planning agenda,Failed,1800,mail-secure.example
+2026-10-08 05:45:00,it.support@example.com,amara.rao@example.com,Sent,Updated security policy,Rejected,12,example.com
+2026-10-07 01:45:00,amara.rao@example.com,elias.khan@example.com,Received,Build deployment summary,Rejected,240,example.com
+2026-10-05 04:45:00,finance@example.com,student.two@campus.example,Sent,Gift card request,Delivered,560,example.com
+2026-10-03 13:05:00,hr.team@example.com,student.one@campus.example,Received,Quarterly report draft,Rejected,12,example.com
+2026-10-11 00:00:00,alerts@unknown.example,it.support@example.com,Received,Urgent: please verify account immediately,Delivered,12,unknown.example
+2026-10-12 21:30:00,finance@example.com,amara.rao@example.com,Sent,Build deployment summary,Delivered,450,example.com
+2026-10-10 18:00:00,elias.khan@example.com,hr.team@example.com,Sent,Quarterly report draft,Delivered,450,example.com
+2026-10-03 22:00:00,noreply@updates.example,external.contact@partner.example,Sent,Password reset request,Delivered,1800,updates.example
+2026-10-03 07:05:00,julian.lee@example.com,student.two@campus.example,Sent,Invoice for October services,Delivered,240,example.com
+2026-10-12 04:15:00,finance@example.com,student.two@campus.example,Received,Updated security policy,Delivered,1800,example.com
+2026-10-05 09:45:00,security@mail-secure.example,priya.shah@example.com,Sent,Lunch meeting moved to 1 PM,Delivered,240,mail-secure.example
+2026-10-01 09:15:00,helpdesk@campus.example,it.support@example.com,Received,Invoice for October services,Delivered,560,campus.example
+2026-10-08 10:45:00,security@mail-secure.example,finance@example.com,Received,Urgent: review attached document,Delivered,130,mail-secure.example
+2026-10-13 12:30:00,elias.khan@example.com,student.one@campus.example,Sent,Urgent: review attached document,Quarantined,1800,example.com
+2026-10-09 13:05:00,alerts@unknown.example,amara.rao@example.com,Sent,Build deployment summary,Failed,45,unknown.example
+2026-10-10 17:00:00,security@mail-secure.example,student.one@campus.example,Sent,Invoice for October services,Delivered,88,mail-secure.example
+2026-10-02 22:30:00,it.support@example.com,finance@example.com,Received,Sprint planning agenda,Delivered,1800,example.com
+2026-10-08 02:30:00,security@mail-secure.example,amara.rao@example.com,Sent,Updated security policy,Rejected,240,mail-secure.example
+2026-10-06 04:00:00,finance@example.com,julian.lee@example.com,Sent,Wire transfer details,Delivered,12,example.com
+2026-10-02 07:15:00,amara.rao@example.com,hr.team@example.com,Received,Shared folder access granted,Delivered,1800,example.com
+2026-10-13 09:05:00,priya.shah@example.com,elias.khan@example.com,Sent,Document review comments,Delivered,130,example.com
+2026-10-11 22:45:00,priya.shah@example.com,it.support@example.com,Received,Lunch meeting moved to 1 PM,Delivered,12,example.com
+2026-10-11 06:15:00,noreply@updates.example,student.two@campus.example,Sent,Sprint planning agenda,Delivered,240,updates.example
+2026-10-10 09:15:00,alerts@unknown.example,it.support@example.com,Sent,Delivery status notification,Delivered,1800,unknown.example
+2026-10-13 12:15:00,billing@vendor.example,it.support@example.com,Received,Weekly project update,Rejected,12,vendor.example
+2026-10-13 09:00:00,billing@vendor.example,student.one@campus.example,Received,Updated security policy,Failed,130,vendor.example
+2026-10-09 17:00:00,bulk.sender@vendor.example,elias.khan@example.com,Received,Monthly notification batch,Delivered,80,vendor.example
+2026-10-09 17:03:00,bulk.sender@vendor.example,external.contact@partner.example,Received,Monthly notification batch,Delivered,80,vendor.example
+2026-10-09 17:06:00,bulk.sender@vendor.example,it.support@example.com,Received,Monthly notification batch,Delivered,80,vendor.example
+2026-10-09 17:09:00,bulk.sender@vendor.example,priya.shah@example.com,Received,Monthly notification batch,Delivered,80,vendor.example
+2026-10-09 17:12:00,bulk.sender@vendor.example,julian.lee@example.com,Received,Monthly notification batch,Delivered,80,vendor.example
+2026-10-09 17:15:00,bulk.sender@vendor.example,amara.rao@example.com,Received,Monthly notification batch,Delivered,80,vendor.example
+2026-10-09 17:18:00,bulk.sender@vendor.example,it.support@example.com,Received,Monthly notification batch,Delivered,80,vendor.example
+2026-10-09 17:21:00,bulk.sender@vendor.example,student.one@campus.example,Received,Monthly notification batch,Delivered,80,vendor.example

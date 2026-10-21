@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MailScope | Email Analytics</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">M</div><div><strong>MailScope</strong><small>SECURITY ANALYTICS</small></div></div>
+    <div class="nav-label">WORKSPACE</div>
+    <a class="nav active" href="/"><span>▦</span> Overview</a>
+    <a class="nav" href="#email-table"><span>✉</span> Email records</a>
+    <a class="nav" href="#security"><span>◈</span> Security review</a>
+    <div class="sidebar-bottom"><div class="shield">◆</div><p><strong>Privacy-first demo</strong><br><small>Sample data stays on this computer.</small></p></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div><div class="eyebrow">INFORMATION & CYBER SECURITY • MICROPROJECT</div><h1>Email traffic overview</h1><p class="sub">Analyze message flow, delivery outcomes, and patterns that may need security review.</p></div><div class="top-actions"><span class="source-pill"><i></i>{{ source }}</span><a class="button primary" href="/report.pdf">↓ Export PDF report</a></div></header>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}<div class="flash-wrap">{% for category, message in messages %}<div class="flash {{ category }}">{{ message }}</div>{% endfor %}</div>{% endif %}
+    {% endwith %}
+    <section class="metrics">
+      <article class="metric"><div class="metric-top"><span>Total messages</span><span class="metric-icon">✉</span></div><strong id="total">{{ summary.total }}</strong><small>Records in selected dataset</small></article>
+      <article class="metric"><div class="metric-top"><span>Sent messages</span><span class="metric-icon blue">↗</span></div><strong id="sent">{{ summary.sent }}</strong><small>Outbound mail flow</small></article>
+      <article class="metric"><div class="metric-top"><span>Received messages</span><span class="metric-icon violet">↙</span></div><strong id="received">{{ summary.received }}</strong><small>Inbound mail flow</small></article>
+      <article class="metric"><div class="metric-top"><span>Flagged for review</span><span class="metric-icon amber">⚑</span></div><strong id="flagged">{{ summary.flagged }}</strong><small><span id="high">{{ summary.high }}</span> high-risk heuristic flags</small></article>
+    </section>
+    <section class="chart-grid">
+      <article class="panel chart-panel"><div class="panel-heading"><div><h2>Message activity</h2><p>Sent and received messages by day</p></div><span class="tag">TREND</span></div><div class="chart-wrap"><canvas id="activityChart"></canvas></div></article>
+      <article class="panel chart-panel"><div class="panel-heading"><div><h2>Security overview</h2><p>Rule-based screening results</p></div><span class="tag">RISK SIGNALS</span></div><div class="donut-wrap"><canvas id="riskChart"></canvas></div><div class="legend" id="riskLegend"></div></article>
+    </section>
+    <section class="panel upload-panel">
+      <div class="upload-copy"><div class="upload-symbol">↑</div><div><h2>Import an email report</h2><p>Upload a CSV exported from a message trace or use the included sample data.</p><small>Required: Timestamp, Sender, Recipient, Direction, Subject, Status. Optional: SizeKB, SenderDomain.</small></div></div>
+      <form action="/upload" method="post" enctype="multipart/form-data" class="upload-form"><input type="file" name="report" accept=".csv" required><button class="button primary" type="submit">Upload CSV</button><a class="button secondary" href="/reset">Reset sample</a></form>
+    </section>
+    <section class="panel filters-panel" id="email-table">
+      <div class="panel-heading"><div><h2>Email records</h2><p>Search, filter, and inspect individual messages</p></div><span class="record-count" id="recordCount">Loading records…</span></div>
+      <div class="filters">
+        <label class="search"><span>⌕</span><input id="q" placeholder="Search sender, recipient, subject, domain…"></label>
+        <select id="direction"><option>All</option><option>Sent</option><option>Received</option></select>
+        <select id="status"><option>All</option><option>Delivered</option><option>Failed</option><option>Rejected</option><option>Quarantined</option></select>
+        <select id="risk"><option>All</option><option>High</option><option>Review</option><option>Low</option></select>
+        <input type="date" id="start" aria-label="Start date"><input type="date" id="end" aria-label="End date">
+        <button class="button secondary" id="clearFilters">Clear</button>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>DATE / TIME</th><th>SENDER</th><th>RECIPIENT</th><th>SUBJECT</th><th>DIRECTION</th><th>STATUS</th><th>RISK</th></tr></thead><tbody id="emailRows"><tr><td colspan="7" class="empty">Loading…</td></tr></tbody></table></div>
+      <div class="table-footer"><span id="tableFoot">Showing latest records</span><span>Risk levels are heuristic indicators, not a verdict.</span></div>
+    </section>
+    <section class="panel security-panel" id="security">
+      <div class="panel-heading"><div><h2>Security review queue</h2><p>Messages that triggered one or more demo rules</p></div><span class="tag amber-tag">NEEDS HUMAN REVIEW</span></div>
+      <div id="securityList" class="security-list"></div>
+    </section>
+    <footer>MailScope · ICS Microproject · Uses fictional sample records unless you upload your own CSV. No Microsoft subscription required.</footer>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
